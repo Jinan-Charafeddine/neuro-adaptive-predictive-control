@@ -1,0 +1,3 @@
+model,target,MAE_deg,RMSE_deg
+SVR reference,shoulder_deg,0.16123707260006115,0.21642301703374905
+SVR reference,elbow_deg,0.2052462225025988,0.2758925707099156

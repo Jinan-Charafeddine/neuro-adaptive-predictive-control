@@ -1,0 +1,72 @@
+{
+  "accuracy": 0.9903846153846154,
+  "classes": [
+    "flexion",
+    "hold",
+    "extension"
+  ],
+  "confusion_matrix": [
+    [
+      632,
+      8,
+      0
+    ],
+    [
+      0,
+      280,
+      0
+    ],
+    [
+      0,
+      7,
+      633
+    ]
+  ],
+  "classification_report": {
+    "flexion": {
+      "precision": 1.0,
+      "recall": 0.9875,
+      "f1-score": 0.9937106918238994,
+      "support": 640.0
+    },
+    "hold": {
+      "precision": 0.9491525423728814,
+      "recall": 1.0,
+      "f1-score": 0.9739130434782609,
+      "support": 280.0
+    },
+    "extension": {
+      "precision": 1.0,
+      "recall": 0.9890625,
+      "f1-score": 0.9945011783189317,
+      "support": 640.0
+    },
+    "accuracy": 0.9903846153846154,
+    "macro avg": {
+      "precision": 0.9830508474576272,
+      "recall": 0.9921875,
+      "f1-score": 0.9873749712070307,
+      "support": 1560.0
+    },
+    "weighted avg": {
+      "precision": 0.9908735332464146,
+      "recall": 0.9903846153846154,
+      "f1-score": 0.9904815699136699,
+      "support": 1560.0
+    }
+  },
+  "prediction_metrics": [
+    {
+      "model": "SVR reference",
+      "target": "shoulder_deg",
+      "MAE_deg": 0.16123707260006115,
+      "RMSE_deg": 0.21642301703374905
+    },
+    {
+      "model": "SVR reference",
+      "target": "elbow_deg",
+      "MAE_deg": 0.2052462225025988,
+      "RMSE_deg": 0.2758925707099156
+    }
+  ]
+}

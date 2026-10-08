@@ -1,0 +1,6 @@
+,MAE_deg,MAE_deg,RMSE_deg,RMSE_deg,effort_reduction_pct,effort_reduction_pct,CCI_reduction_pct,CCI_reduction_pct,smoothness_gain_pct,smoothness_gain_pct
+,mean,std,mean,std,mean,std,mean,std,mean,std
+controller,,,,,,,,,,
+C1 no assistance,6.152,0.179,7.948,0.188,-0.861,2.085,-0.537,1.472,-0.704,1.273
+C2 fixed admittance,4.15,0.178,5.211,0.234,14.769,1.764,15.508,2.509,23.128,2.519
+C3 proposed,2.813,0.2,3.615,0.207,54.983,2.172,44.792,2.346,47.779,2.335
